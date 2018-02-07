@@ -1,0 +1,5 @@
+<view class="content" style="background-image:url('../assets/img/bg.png');   background-repeat: repeat;">
+<block wx:for="{{logs}}" wx:for-item="log">
+    <view class='item orange'>{{log}}</view>
+</block>
+</view>
